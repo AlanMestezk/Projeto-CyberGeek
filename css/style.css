@@ -1,0 +1,237 @@
+*{  
+    text-decoration: none;
+}
+
+body{
+    background-color: darkslateblue;
+}
+
+.cabeça{
+    height: 50px;
+    
+}
+
+.Botões{
+    display: flex;
+    
+}
+
+
+.bot1{
+    color: mintcream;
+    font-weight:bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(30, 25, 59);
+    margin: 4px;
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+    height: 30px;
+}
+
+.bot1:hover{
+    background-image: url(/img/gif.gif)
+}
+
+.marca{
+    display: flex;
+    height: 90px;
+    width: 100%;   
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 122px;
+    align-items: center;
+  
+    color: blanchedalmond;
+   
+}
+
+.h1{
+    width: 100%;
+    
+}
+
+.cabeca1{
+    width: 30%;
+}
+
+.cabeca{
+    display: flex;
+
+}
+
+.header .pesquisar{
+    
+    width: 500PX;
+    height: 40px;
+    border-radius: 15px;
+    background-color: mintcream;
+    border-color:darkslateblue;
+    
+}
+
+.header .bot{
+    border-radius: 20px;
+    height: 44px;
+    width: 60px;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    border-color:rgb(255, 255, 255);
+    background-color:darkslateblue ;
+}
+
+.bot:hover{
+    background-image: url(/img/gif.gif);
+}
+
+.lista{
+    margin: 30px;
+}
+
+.menuzinho{
+    width: 60px;
+    border-radius: 8px;
+    height: 40px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: darkslateblue;
+}
+
+.textoMenuzinho{
+    background-color: rgb(245, 248, 255);
+    font-weight: bolder;
+    color: red;
+}
+
+.textMenu{
+    background-color: rgb(121, 117, 117);
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+}
+
+
+.imagemLogo{
+    width: 35%;
+    margin-right:0px ;
+}
+
+.logo{
+    padding-right: 2%;
+}
+
+
+.pesquisar{
+    width: 100%;
+    height: 23%;
+}
+
+
+.container{
+
+    width: 100%;
+
+}
+
+.wall{
+    display: none;
+    width: 100%;
+    height: 200%;
+
+}
+
+
+
+.wall:target{
+    display: block;
+}
+
+.carrossel{
+    width: 100%;
+}
+
+.bolinhas{
+    text-align: center;
+}
+
+.produtos{
+    display: flex;
+    
+}
+
+.osProdutos{
+
+        width: 100%;
+        height: 100px;
+        border-radius: 3px black;
+        padding-right:10px ;
+        text-align: center;
+       
+}
+
+.imgs{
+    margin-top: 15%;
+    border-radius: 50%;
+    background-position: -15px -15px;
+    height: 111px;
+    width: 60%;
+}
+
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.conteudo{
+    width: 100%;
+    height:50px;
+    background-color: black;
+    margin-top: 7%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    color: orange;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: #000;
+font-size: 3em; color: #fffdd9;
+}
+
+.venda{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/img/fundo.gif);
+   
+    width: 100%;
+    
+}
+
+
+.imgVenda{
+    display: flex;
+    width: 13%;
+    align-items: center;
+
+}
+
+.final{
+    background-color: darkslateblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: ghostwhite;
+    text-align: center;
+}
+
+.finalComeco{
+    text-align: center;
+}
+
+
+
+    
+
