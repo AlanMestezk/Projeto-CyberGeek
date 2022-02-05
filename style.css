@@ -1,0 +1,24 @@
+header{
+    background-color: rgb(134, 9, 9);
+    padding-bottom: 100px;
+    margin-bottom: 2;
+}
+
+.cadastro{
+    color: rgb(134, 9, 9);
+    text-align: center;
+    background-color: grey;
+    padding-bottom: 500px;
+    padding-top: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.botao{
+    margin-top: 25px;
+}
+
+.email{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
