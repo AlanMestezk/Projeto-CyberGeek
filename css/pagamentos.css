@@ -1,0 +1,56 @@
+* {
+    text-decoration: none;
+}
+
+body {
+    background-color: darkslateblue;
+}
+
+.cabeca1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: mintcream;
+}
+
+h2 {
+    margin-top: 60px;
+}
+
+.formPagamentos {
+    display: flex;
+    margin-top: 88px;
+    justify-content: space-evenly;
+}
+
+.formPagamentos__base {
+    color: mintcream;
+}
+
+.formEndPagamentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.formEndPagamentos>input {
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+
+.formEndPagamentosBtn {
+  text-align: center;
+  margin-top: 20px;
+}
+.formEndPagamentosBtn>button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}

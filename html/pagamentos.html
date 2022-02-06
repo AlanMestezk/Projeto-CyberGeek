@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamentos</title>
+    <link rel="stylesheet" href="../css/pagamentos.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="cabeca1">
+            <img id="logGeek" src="/img/loogo.png" alt="logo">
+
+        </div>
+    </header>
+
+    <h1>Esolha uma forma de pagamento</h1>
+
+    <main class="telaPagamentos">
+        <article class="formPagamentos">
+            <section class="formPagamentos__base">
+                <label for="pix">Pagamento PIX</label>
+                <input type="radio" id="pix" name="formPagamentos" value="pix" checked>
+
+            </section>
+            <section class="formPagamentos__base">
+                <label for="cartao_credito">Pagamento Cartão de Crédito</label>
+                <input type="radio" id="cartao_credito" name="formPagamentos" value="cartao_credito">
+
+            </section>
+            <section class="formPagamentos__base">
+                <label for="boleto">Pagamento Boleto</label>
+                <input type="radio" id="pix" name="formPagamentos" value="boleto">
+
+            </section>
+            <section class="formPagamentos__base">
+                <label for="geek">Pagamento Geek Créditos</label>
+                <input type="radio" id="geek" name="formPagamentos" value="geek">
+
+            </section>
+        </article>
+
+        <h2>Endereço da entrega</h2>
+
+        <form action="" method="get" class="formEndPagamentos">
+
+            <!-- <label for="rua">Rua : </label> -->
+            <input type="text" name="rua" id="rua" placeholder="Nome da Rua" required>
+
+            <!-- <label for="numero">Número : </label> -->
+            <input type="text" name="numero" id="numero" placeholder="Número" required>
+
+            <!-- <label for="complemento">Complemento : </label> -->
+            <input type="text" name="complemento" id="complemento" placeholder="Complemento">
+
+            <!-- <label for="ceep">Ceep : </label> -->
+            <input type="text" name="ceep" id="ceep" placeholder="Ceep" required>
+
+            <!-- <label for="cidade">Cidade : </label> -->
+            <input type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+
+            <!-- <label for="estado">Estado : </label> -->
+            <input type="text" name="estado" id="estado" placeholder="Estado" required>
+
+        </form>
+
+        <div class="formEndPagamentosBtn">
+            <button class="btnConfirmar" type="submit"> Confirmar!!</button>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
