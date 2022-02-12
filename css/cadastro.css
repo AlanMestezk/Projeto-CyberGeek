@@ -1,0 +1,90 @@
+*{  
+    text-decoration: none;
+}
+
+h1 {
+    color: aqua;
+    text-shadow: 2px 1px black;
+    margin-left: 20px;
+}
+
+h3{
+    color: azure;
+}
+
+h5{
+    margin-left: 2rem;
+}
+fieldset{
+    border: none;
+}
+form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    color: rgb(117, 145, 145);
+   font-style: italic;
+   font-weight: 800;
+   font-size: larger;
+   margin-right: 20px;
+    
+}
+
+input{
+    width: 600px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.age input {
+    width: 200px;
+}
+
+.telefones input {
+    width: 400px;
+}
+
+.fixo{
+    margin: 0;
+    text-align: center;
+}
+
+.seletores{
+    margin-left: 10rem;
+}
+
+.seletores button{
+    padding: 13px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(88, 219, 219);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.envio button{
+    padding: 10px;
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(88, 219, 219);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+ label span{
+    color: rgb(245, 230, 230);
+    font-size: small;
+}
+
+.envio .cancel{
+    background-color: rgb(73, 69, 69);
+}
