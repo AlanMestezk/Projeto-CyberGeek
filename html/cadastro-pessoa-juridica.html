@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+
+    <section class="header">
+        <div class="cabeca1">
+            <img class="h1" src="/img/loogo.png" alt="logo">
+        </div>
+    </section>
+
+    <section>
+
+        <h1>Cadastro de novo cliente</h1>
+        <hr>
+        <div class="seletores">
+            <button type="submit">Pessoa Física</button>
+            <button type="submit">Pessoa Jurídica</button>
+        </div>
+        <form action="" method="POST">
+
+            <h3>Dados Pessoais</h3>
+            <h5>Campos Obrigatórios <span>*</span></h5>
+            <fieldset>
+
+                <div > 
+                    <label for="nome">Razão Social <span>*</span></label>
+                    <input type="text" name="nome">
+                </div>
+
+                <div class="age">
+                    <label for="data">Inscrição Estadual </label>
+                    <input type="text" name="data">
+                </div>
+
+                <div>
+                    <label for="cpf">CNPJ <span>*</span></label>
+                    <input type="text" name="cpf">
+                </div>
+
+                <div class="telefones">
+                    <label for="cel">Celular <span>*</span></label>
+                    <input type="tel" name="cel" placeholder="(xx) xxxx xxxx">
+                    <label  class="fixo" for="tel">Fixo <span>*</span></label>
+                    <input type="tel" name="tel" placeholder="(xx) xxxx xxxx">
+                </div>
+
+
+                <div>
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" name="email" placeholder="email@email.com">
+                </div>
+
+                <div>
+                    <label for="confirmeEmail">Confirme Email <span>*</span></label>
+                    <input type="confirmeEmail" name="confirmeEmail" placeholder="email@email.com">
+                </div>
+
+                <div class="telefones">
+                    <label for="senha">Senha <span>*</span></label>
+                    <input type="password" name="senha">
+                    <label  class="fixo" for="confirmeSenha">Confirme Senha <span>*</span></label>
+                    <input type="password" name="confirmeSenha">
+                </div>
+
+                <div class="envio">
+                    <button type="submit">Cadastrar</button>
+                    <button class="cancel" type="submit">Cancelar</button>
+                </div>
+            </fieldset>
+
+
+        </form>
+    </section>
+
+
+</body>
+
+</html>
